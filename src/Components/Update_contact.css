@@ -1,0 +1,41 @@
+.update_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.update_container_1{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.input_padding{
+    padding: 10px;
+}
+
+.input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid #d9e7fc;
+}
+
+@media(max-width:612px){
+    .input{
+        width: 400px;
+    }
+}
+
+@media(max-width:500px){
+    .input{
+        width: 250px;
+    }
+}
